@@ -4,7 +4,7 @@ from decouple import config
 
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hello-world-0ikz.onrender.com']
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
